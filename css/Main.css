@@ -1,5 +1,4 @@
 html {
-	// font-family: 'Oswald', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }	
 body {
@@ -24,9 +23,18 @@ img.thumbs {
     	margin-top: 30px;
 	margin-bottom: 30px;
 }
+.gallerynav {
+	display: flex;
+	margin-top: 40px;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
 .foot {
 	display: block;
-	margin-top: 50px;
+	margin-top: 40px;
 	margin-bottom: 30px;
 	text-align:center;
 }
