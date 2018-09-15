@@ -71,18 +71,12 @@
 			padding-bottom: 33.3%;
 		}
 	}
-</style> 
-  
-<!-- Enable media queries for old IE -->
-<!--[if lt IE 9]>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
-  
+</style>
 </head> 
 <body class="no-touch"> 
-	<!-- Page Header -->
+<!-- Page Header -->
 	<img class="header" src="../Images/Page-Header.gif">
-	<!-- Navigation Bar -->
+<!-- Navigation Bar -->
 	<ul id="nav">
 		<li><a href="../index.html">HOME</a></li>
 		<li><a href="../Artistry/Artistry.html">ARTISTRY</a></li>
@@ -90,9 +84,9 @@
 		<li><a href="../Store/Store.html">STORE</a></li>
 		<li><a href="../Contact.html">CONTACT</a></li>
 	</ul>
-	<!-- Section Heading -->
+<!-- Section Heading -->
 	<img class="header" src="Images/Categories/Monuments.gif">
-	<!-- Page Content -->
+<!-- Page Content -->
 	<div class="container">
 		<div class="box">
 			<div class="boxInner">
@@ -149,20 +143,23 @@
 			</div>
 		</div>
 	</div>
-	<!-- Page Footer -->
+<!-- Navigation to other photo categories -->
+	<div class="gallerynav">
+		PHOTOGRAPHY HOME
+		<a href="Photography.html"><img src="Previous.gif" style="vertical-align:middle" title="Photography Home"></a>
+		LANDSCAPES
+		<a href="Nature.html"><img src="Next.gif" style="vertical-align:middle" title="Next Gallery"></a>
+		NEXT GALLERY
+	</div>
+<!-- Page Footer -->
 	<div class="foot">All content Copyright &copy; 2018 by CheekyWren Southern Artistry. All rights reserved.</div>
 
-<!-- /#wrap -->
-  
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script type="text/javascript">
 $(function(){
-// See if this is a touch device
 if ('ontouchstart' in window)
 {
-// Set the correct body class
 $('body').removeClass('no-touch').addClass('touch');
-// Add the touch toggle to show text
 $('div.boxInner img').click(function(){
 $(this).closest('.boxInner').toggleClass('touchFocus');
 });
